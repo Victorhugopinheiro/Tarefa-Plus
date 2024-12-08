@@ -1,0 +1,113 @@
+
+
+
+.container{
+    width: 100%;
+}
+
+
+
+.tittle{
+    color: white;
+    text-align: center;
+}
+
+.checkbox{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+}
+
+.input{
+    width: 18px;
+    height: 18px;
+}
+
+.section{
+    width: 100%;
+    padding: 0 12px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentForm{
+    width: 100%;
+    max-width: 1024px;
+    
+}
+
+.button{
+    width: 100%;
+    background-color: #1318ff;
+    border: none;
+    padding: 12px;
+    margin: 16px 0px;
+    border-radius: 4px;
+    transition: transform 0.4s;
+    font-size: 18px;
+    color: white;
+}
+
+.button:hover{
+    transform: scale(1.04)
+}
+
+.section2{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    margin: 0 auto 0 auto;
+    flex-direction: column;
+    
+}
+
+.section2 h1{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+
+.article{
+    width: 100%;
+    border: 1.5px solid black;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.public{
+    display: flex;
+    align-items: center;
+   
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4px;   
+}
+
+.infos a{
+    text-decoration: none;
+    color: black;
+}
+
+.public label{
+    background-color: #3686ff;
+    margin: 0 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.logo{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

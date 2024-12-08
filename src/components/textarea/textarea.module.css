@@ -1,0 +1,11 @@
+
+
+.textArea{
+    width: 100%;
+    outline: none;
+    height: 160px;
+    border-radius: 6px;
+    resize: none;
+    padding: 8px;
+    margin: 6px 0px;
+}

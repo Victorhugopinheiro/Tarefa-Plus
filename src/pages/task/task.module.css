@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1024px;
+    margin: 40px auto 0px auto;
+    flex-direction: column;
+    padding: 0px 18px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h1 {
+    margin-bottom: 6px;
+}
+
+.article {
+    width: 100%;
+    border: 1px solid grey;
+    line-height: 150%;
+    padding: 14px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.article p {
+    white-space: pre-wrap;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.section h2{
+    margin-bottom: 6px;
+}
+
+
+
+.section button {
+    width: 100%;
+    background-color: #318fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffff;
+    margin-bottom: 35px;
+}
+
+.button:disabled{
+    background-color: #60a2f196;
+    cursor: not-allowed;
+}
+
+.sectionAllCommets{
+    width: 100%;
+}
+
+.sectionAllCommets h2{
+    margin-bottom: 12px;
+}
+
+.articleComment{
+    border: 1px solid #0000005b;
+    width: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    
+}
+
+.infoUser{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.buttonTrash{
+    background-color: transparent;
+   
+    border: 0;
+    margin-bottom: 6px;
+}
+
+.infoUser p{
+    background-color: #00000017;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+}
+
