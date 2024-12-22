@@ -29,7 +29,7 @@ const {data: session, status} = useSession()
                     ) : session ? (
                         <button onClick={() => signOut()} className={styles.button}>{session.user?.name}</button>
                     ) : (
-                        <button onClick={() => signIn("google")} className={styles.button}>Acessar</button>
+                        <button onClick={() => signIn("google")} className={styles.button}>Acessar </button>
                     )}
 
                     <FiThermometer/>
