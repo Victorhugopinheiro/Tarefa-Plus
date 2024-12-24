@@ -25,6 +25,7 @@ export default function Home({tarefas, comments} :InfoDb) {
           className={styles.img}
           src={hero}
           alt="Imagem da home"
+          priority={true}
         />
         </div>
         <h1 className={styles.tittle}>Sistema feito para você organizar<br />seus estudos e tarefas</h1>
