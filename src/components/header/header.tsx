@@ -18,7 +18,7 @@ export default function Header() {
 
                     {session?.user && (
                         <Link href={"/dashboard"}>
-                            painel
+                            <button className={styles.sectionButton}>Meu painel</button>
                         </Link>
 
                         
